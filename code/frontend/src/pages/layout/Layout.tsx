@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Layout.module.css";
-import Azure from "../../assets/Azure.svg";
+import Azure from "../../assets/Devicie.svg";
 import {
   CopyRegular,
   ShareRegular,

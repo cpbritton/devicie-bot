@@ -30,7 +30,7 @@ import rehypeRaw from "rehype-raw";
 import { v4 as uuidv4 } from "uuid";
 
 import styles from "./Chat.module.css";
-import Azure from "../../assets/Azure.svg";
+import Azure from "../../assets/Devicie.svg";
 import { multiLingualSpeechRecognizer } from "../../util/SpeechToText";
 import { useBoolean } from "@fluentui/react-hooks";
 import {
