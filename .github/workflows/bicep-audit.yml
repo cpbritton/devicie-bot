@@ -1,12 +1,12 @@
 name: Validate bicep templates
 on:
   push:
-    branches: 
+    branches:
       - main
     paths:
       - "**/*.bicep"
   pull_request:
-    branches: 
+    branches:
       - main
     paths:
       - "**/*.bicep"
@@ -27,9 +27,3 @@ jobs:
         continue-on-error: true
         with:
           tools: templateanalyzer
-
-      - name: Upload alerts to Security tab
-        uses: github/codeql-action/upload-sarif@v3
-        if: github.repository_owner == 'Azure-Samples'
-        with:
-          sarif_file: ${{ steps.msdo.outputs.sarifFile }}
