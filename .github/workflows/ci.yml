@@ -53,8 +53,8 @@ jobs:
           AZURE_ENV_NAME: ${{ github.run_id }}
           AZURE_LOCATION: ${{ vars.AZURE_LOCATION }}
         with:
-          imageName: ghcr.io/azure-samples/chat-with-your-data-solution-accelerator
-          cacheFrom: ghcr.io/azure-samples/chat-with-your-data-solution-accelerator
+          imageName: ghcr.io/azure-samples/devicie-bot
+          cacheFrom: ghcr.io/azure-samples/devicie-bot
           imageTag: ${{ env.imageTag }}
           runCmd: make ci && make deploy
           refFilterForPush: refs/heads/${{ github.event_name == 'schedule' && 'main' || github.ref_name }}
@@ -73,7 +73,7 @@ jobs:
           AZURE_LOCATION: ${{ vars.AZURE_LOCATION }}
         with:
           push: never
-          imageName: ghcr.io/azure-samples/chat-with-your-data-solution-accelerator
+          imageName: ghcr.io/azure-samples/devicie-bot
           imageTag: ${{ env.imageTag }}
           runCmd: make destroy
           env: |
@@ -83,7 +83,7 @@ jobs:
             AZURE_SUBSCRIPTION_ID
             AZURE_ENV_NAME
             AZURE_LOCATION
-            
+
       - name: Send Notification on Failure
         if: failure()
         run: |

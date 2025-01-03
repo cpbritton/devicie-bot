@@ -3,13 +3,13 @@
 * **Status:** approved
 * **Proposer:** @adamdougal
 * **Date:** 2024-03-15
-* **Technical Story:** [https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/issues/420](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/issues/420)
+* **Technical Story:** [https://github.com/Azure-Samples/devicie-bot/issues/420](https://github.com/Azure-Samples/devicie-bot/issues/420)
 
 
 ## Context and Problem Statement
 
-Functional tests run against a closed boxed running version of the application. This means we are unable to stub out 
-http requests at the code level. Requiring us to use mock http servers. There are many mock http servers out there, 
+Functional tests run against a closed boxed running version of the application. This means we are unable to stub out
+http requests at the code level. Requiring us to use mock http servers. There are many mock http servers out there,
 which one should we use?
 
 ## Decision Drivers
@@ -46,7 +46,7 @@ N/A
 
 ### Custom Built
 
-This option requires us to build everything from scratch. It looks fairly straight forward to do based on some 
+This option requires us to build everything from scratch. It looks fairly straight forward to do based on some
 suggestions here [https://stackoverflow.com/questions/21877387/mocking-a-http-server-in-python](https://stackoverflow.com/questions/21877387/mocking-a-http-server-in-python).
 
 * Good, because full flexibility to return anything we want, including simulating faults
@@ -66,7 +66,7 @@ WireMock is a java lirary that can be interacted with using the [wiremock python
 ### pytest-httpserver
 
 pytest-httpserver is a python library that creates a mock server that can be primed with responses. It can return bad
-status codes, but it doesn't have built in funtionality to simulate faults and timeouts in the same way as WireMock can. 
+status codes, but it doesn't have built in funtionality to simulate faults and timeouts in the same way as WireMock can.
 However, it does allow us to define our own custom response handler to simulate faults e.g:
 
 ```python
@@ -90,7 +90,7 @@ aoai-simulated-api is a python library build by a Microsoft employee. It aims to
 specifically for Azure OpenAI.
 
 * Good, because it does not introduce another programming language or runtime
-* Good, because it potentially simulates the main downstream service more accurately, though we may not need this 
+* Good, because it potentially simulates the main downstream service more accurately, though we may not need this
   accuracy in these tests with the introduction of E2E integrated test
 * Bad, because it's very new, meaning it's unclear how it will be maintained and it could change significantly
 * Bad, because it does not allow us to prime specific respones and faults

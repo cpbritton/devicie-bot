@@ -3,7 +3,7 @@
 * **Status:** approved
 * **Proposer:**  @adamdougal
 * **Date:** 2024-04-30
-* **Technical Story:** [Make required changes to store image embeddings](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/issues/748)
+* **Technical Story:** [Make required changes to store image embeddings](https://github.com/Azure-Samples/devicie-bot/issues/748)
 
 ## Context and Problem Statement
 
@@ -45,18 +45,18 @@ cutting edge features in future without having to wait for Langchain to be updat
 ### Remove Langchain from tools
 
 For this option, it's proposed to remove the use of Langchain from the following files:
-- [AzureSearchHelper.py](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/blob/a1ce1b9854aa5246623be20f5f6778969a37d165/code/backend/batch/utilities/helpers/AzureSearchHelper.py)
-- [QuestionAnswerTool.py](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/blob/a1ce1b9854aa5246623be20f5f6778969a37d165/code/backend/batch/utilities/tools/QuestionAnswerTool.py)
-- [PostPromptTool.py](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/blob/a1ce1b9854aa5246623be20f5f6778969a37d165/code/backend/batch/utilities/tools/PostPromptTool.py)
+- [AzureSearchHelper.py](https://github.com/Azure-Samples/devicie-bot/blob/a1ce1b9854aa5246623be20f5f6778969a37d165/code/backend/batch/utilities/helpers/AzureSearchHelper.py)
+- [QuestionAnswerTool.py](https://github.com/Azure-Samples/devicie-bot/blob/a1ce1b9854aa5246623be20f5f6778969a37d165/code/backend/batch/utilities/tools/QuestionAnswerTool.py)
+- [PostPromptTool.py](https://github.com/Azure-Samples/devicie-bot/blob/a1ce1b9854aa5246623be20f5f6778969a37d165/code/backend/batch/utilities/tools/PostPromptTool.py)
 
 The use of Langchain as an orchestrator in the
-[LangChainAgent.py](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/blob/a1ce1b9854aa5246623be20f5f6778969a37d165/code/backend/batch/utilities/orchestrator/LangChainAgent.py)
+[LangChainAgent.py](https://github.com/Azure-Samples/devicie-bot/blob/a1ce1b9854aa5246623be20f5f6778969a37d165/code/backend/batch/utilities/orchestrator/LangChainAgent.py)
 file will be retained.
 
 This change would give us full control over how we create and query the search index.
 
 * Good, because we can implement the ingestion and search to meet our requirements
-* Good, because the changes have been proven in [Pull Request #786](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/pull/786)
+* Good, because the changes have been proven in [Pull Request #786](https://github.com/Azure-Samples/devicie-bot/pull/786)
 * Good, because speed of delivery is low and in our control
 * Good, because no loss of functionality
 * Bad, because we stop using Langchain which makes it easier to switch between different vector stores and llms.
@@ -69,7 +69,7 @@ For this option, we would create and contribute back a new integration with Azur
 
 We would also need to make a change to allow multiple search queries to be passed to Azure AI Search.
 
-* Good, because the changes we would be making have been proven by [https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/pull/786](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/pull/786)
+* Good, because the changes we would be making have been proven by [https://github.com/Azure-Samples/devicie-bot/pull/786](https://github.com/Azure-Samples/devicie-bot/pull/786)
 * Good, because minimal changes the CWYDSA code base
 * Good, because no loss of functionality
 * Bad, because our required changes may not be accepted by the Langchain maintainers
@@ -82,7 +82,7 @@ For this option, if advanced image processing is not enabled, we will continue d
 enabled, we will have a different path in the code base for ingestion and querying.
 
 * Good, because we can implement the ingestion and search to meet our requirements
-* Good, because the changes have been proven in [https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/pull/786](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/pull/786)
+* Good, because the changes have been proven in [https://github.com/Azure-Samples/devicie-bot/pull/786](https://github.com/Azure-Samples/devicie-bot/pull/786)
 * Good, because speed of delivery is low and in our control
 * Good, because no loss of functionality
 * Bad, because it significantly increases the code complexity with multiple paths

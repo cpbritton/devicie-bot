@@ -3,7 +3,7 @@
 * **Status:** approved
 * **Proposer:** @superhindupur
 * **Date:** 2024-04-23
-* **Technical Story:** [Include a prompt flow integration](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/issues/406)
+* **Technical Story:** [Include a prompt flow integration](https://github.com/Azure-Samples/devicie-bot/issues/406)
 
 ## Context and Problem Statement
 

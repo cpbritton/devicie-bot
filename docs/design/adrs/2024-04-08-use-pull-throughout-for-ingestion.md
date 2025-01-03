@@ -3,7 +3,7 @@
 * **Status** - approved
 * **Proposer:** @komalgrover
 * **Date:** 2024-04-08
-* **Technical Story:** [https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/issues/321](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/issues/321)
+* **Technical Story:** [https://github.com/Azure-Samples/devicie-bot/issues/321](https://github.com/Azure-Samples/devicie-bot/issues/321)
 
 ## Context and Problem Statement
 

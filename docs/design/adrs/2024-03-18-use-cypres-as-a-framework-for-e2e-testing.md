@@ -3,7 +3,7 @@
 * **Status:** approved
 * **Proposer:** @superhindupur
 * **Date:** 2024-03-18
-* **Technical Story:** [Add E2E test suite](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/issues/419)
+* **Technical Story:** [Add E2E test suite](https://github.com/Azure-Samples/devicie-bot/issues/419)
 
 ## Context and Problem Statement
 

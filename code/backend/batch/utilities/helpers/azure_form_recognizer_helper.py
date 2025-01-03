@@ -18,7 +18,7 @@ class AzureFormRecognizerClient:
                 endpoint=self.AZURE_FORM_RECOGNIZER_ENDPOINT,
                 credential=DefaultAzureCredential(),
                 headers={
-                    "x-ms-useragent": "chat-with-your-data-solution-accelerator/1.0.0"
+                    "x-ms-useragent": "devicie-bot/1.0.0"
                 },
             )
         else:
@@ -28,7 +28,7 @@ class AzureFormRecognizerClient:
                 endpoint=self.AZURE_FORM_RECOGNIZER_ENDPOINT,
                 credential=AzureKeyCredential(self.AZURE_FORM_RECOGNIZER_KEY),
                 headers={
-                    "x-ms-useragent": "chat-with-your-data-solution-accelerator/1.0.0"
+                    "x-ms-useragent": "devicie-bot/1.0.0"
                 },
             )
 

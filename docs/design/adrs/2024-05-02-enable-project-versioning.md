@@ -3,7 +3,7 @@
 * **Status:** approved
 * **Proposer:** @frtibble
 * **Date:** 2024-05-02
-* **Technical Story:** [https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/issues/651](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/issues/651)
+* **Technical Story:** [https://github.com/Azure-Samples/devicie-bot/issues/651](https://github.com/Azure-Samples/devicie-bot/issues/651)
 
 ## Context and Problem Statement
 
