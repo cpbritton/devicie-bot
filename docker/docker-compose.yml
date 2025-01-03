@@ -1,7 +1,7 @@
 name: cwydsa
 services:
   web:
-    image: fruoccopublic.azurecr.io/rag-webapp
+    image: rbmraglab.azurecr.io/rag-webapp
     ports:
       - "8080:80"
     env_file:
@@ -10,7 +10,7 @@ services:
       - path: $AZD_ENV_FILE
         required: false
   admin:
-    image: fruoccopublic.azurecr.io/rag-adminwebapp
+    image: rbmraglab.azurecr.io/rag-adminwebapp
     ports:
       - "8081:80"
     environment:
@@ -22,7 +22,7 @@ services:
       - path: $AZD_ENV_FILE
         required: false
   backend:
-    image: fruoccopublic.azurecr.io/rag-backend
+    image: rbmraglab.azurecr.io/rag-backend
     ports:
       - "8082:80"
     environment:
