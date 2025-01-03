@@ -280,7 +280,7 @@
     },
     "azureOpenAIModelCapacity": {
       "type": "int",
-      "defaultValue": 30,
+      "defaultValue": 10,
       "metadata": {
         "description": "Azure OpenAI Model Capacity - See here for more info  https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/quota"
       }

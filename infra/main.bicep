@@ -135,7 +135,7 @@ param azureOpenAIModelName string = 'gpt-35-turbo-16k'
 param azureOpenAIModelVersion string = '0613'
 
 @description('Azure OpenAI Model Capacity - See here for more info  https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/quota')
-param azureOpenAIModelCapacity int = 30
+param azureOpenAIModelCapacity int = 10
 
 @description('Whether to enable the use of a vision LLM and Computer Vision for embedding images. If the database type is PostgreSQL, set this to false.')
 param useAdvancedImageProcessing bool = false
