@@ -648,7 +648,7 @@
     },
     "rgName": "[format('rg-{0}', parameters('environmentName'))]",
     "keyVaultName": "[format('kv-{0}', parameters('resourceToken'))]",
-    "baseUrl": "https://raw.githubusercontent.com/Azure-Samples/devicie-bot/main/",
+    "baseUrl": "https://raw.githubusercontent.com/cpbritton/devicie-bot/refs/heads/main/",
     "azureOpenAIModelInfo": "[string(createObject('model', parameters('azureOpenAIModel'), 'modelName', parameters('azureOpenAIModelName'), 'modelVersion', parameters('azureOpenAIModelVersion')))]",
     "azureOpenAIEmbeddingModelInfo": "[string(createObject('model', parameters('azureOpenAIEmbeddingModel'), 'modelName', parameters('azureOpenAIEmbeddingModelName'), 'modelVersion', parameters('azureOpenAIEmbeddingModelVersion')))]",
     "appversion": "latest",

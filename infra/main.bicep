@@ -323,7 +323,7 @@ var eventGridSystemTopicName = 'doc-processing'
 var tags = { 'azd-env-name': environmentName }
 var rgName = 'rg-${environmentName}'
 var keyVaultName = 'kv-${resourceToken}'
-var baseUrl = 'https://raw.githubusercontent.com/Azure-Samples/devicie-bot/main/'
+var baseUrl = 'https://raw.githubusercontent.com/cpbritton/devicie-bot/refs/heads/main/'
 var azureOpenAIModelInfo = string({
   model: azureOpenAIModel
   modelName: azureOpenAIModelName
