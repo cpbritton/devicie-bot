@@ -202,7 +202,7 @@ param azureOpenAIEmbeddingModelName string = 'text-embedding-ada-002'
 param azureOpenAIEmbeddingModelVersion string = '2'
 
 @description('Azure OpenAI Embedding Model Capacity - See here for more info  https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/quota')
-param azureOpenAIEmbeddingModelCapacity int = 30
+param azureOpenAIEmbeddingModelCapacity int = 10
 
 @description('Name of Computer Vision Resource (if useAdvancedImageProcessing=true)')
 param computerVisionName string = 'computer-vision-${resourceToken}'
