@@ -652,7 +652,7 @@
     "azureOpenAIModelInfo": "[string(createObject('model', parameters('azureOpenAIModel'), 'modelName', parameters('azureOpenAIModelName'), 'modelVersion', parameters('azureOpenAIModelVersion')))]",
     "azureOpenAIEmbeddingModelInfo": "[string(createObject('model', parameters('azureOpenAIEmbeddingModel'), 'modelName', parameters('azureOpenAIEmbeddingModelName'), 'modelVersion', parameters('azureOpenAIEmbeddingModelVersion')))]",
     "appversion": "latest",
-    "registryName": "fruoccopublic",
+    "registryName": "rbmraglab",
     "defaultOpenAiDeployments": [
       {
         "name": "[parameters('azureOpenAIModel')]",

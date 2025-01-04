@@ -336,7 +336,7 @@ var azureOpenAIEmbeddingModelInfo = string({
 })
 
 var appversion = 'latest' // Update GIT deployment branch
-var registryName = 'fruoccopublic' // Update Registry name
+var registryName = 'rbmraglab' // Update Registry name
 
 // Organize resources in a resource group
 resource rg 'Microsoft.Resources/resourceGroups@2021-04-01' = {
