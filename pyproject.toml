@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "devicie-bot"
 version = "1.1.0"
-description = "Chat with your data solution accelerator"
+description = ""
 authors = []
 readme = "README.md"
 packages = [
