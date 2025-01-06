@@ -14,7 +14,13 @@ RUN apt-get update && apt-get install python3-tk tk-dev -y
 COPY pyproject.toml /usr/src/app/pyproject.toml
 COPY poetry.lock /usr/src/app/poetry.lock
 WORKDIR /usr/src/app
-RUN pip install --upgrade pip && pip install poetry uwsgi && poetry export -o requirements.txt && pip install -r requirements.txt
+
+#RUN pip install --upgrade pip && pip install poetry uwsgi && poetry export -o requirements.txt && pip install -r requirements.txt
+RUN pip install --upgrade pip
+RUN pip install poetry
+RUN poetry self add poetry-plugin-export
+RUN poetry export -o requirements.txt
+RUN pip install -r requirements.txt
 
 COPY ./code/*.py /usr/src/app/
 COPY ./code/backend /usr/src/app/backend
