@@ -8,6 +8,7 @@ COPY pyproject.toml /
 COPY poetry.lock /
 RUN pip install --upgrade pip
 RUN pip install poetry
+RUN poetry
 RUN poetry export -o requirements.txt
 RUN pip install -r requirements.txt
 
