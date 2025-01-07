@@ -590,7 +590,7 @@ const Chat = () => {
                   src={Azure}
                   className={styles.chatIcon}
                   aria-hidden="true"
-                  alt="Chat with your data"
+                  alt="Devicie Digital Technician"
                 />
                 {assistantType === "contract assistant" ? (
                   <>

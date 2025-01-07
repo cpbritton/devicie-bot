@@ -169,7 +169,7 @@ export class TeamsBot extends TeamsActivityHandler {
       for (let cnt = 0; cnt < membersAdded.length; cnt++) {
         if (membersAdded[cnt].id) {
           await context.sendActivity(
-            `Greetings! I am the Chat with your data bot. How can I help you today?`
+            `Greetings! I am the Devicie Digital Technician bot. How can I help you today?`
           );
           break;
         }

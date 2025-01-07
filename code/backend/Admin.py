@@ -1,5 +1,5 @@
 """
-This module contains the code for the Admin app of the Chat with your data Solution Accelerator.
+This module contains the code for the Admin app of the Devicie Digital Technician Solution Accelerator.
 """
 
 import os
@@ -45,7 +45,7 @@ col1, col2, col3 = st.columns([1, 2, 1])
 with col1:
     st.image(os.path.join("images", "logo.png"))
 
-st.write("# Chat with your data Solution Accelerator")
+st.write("# Devicie Digital Technician")
 
 st.write(
     """

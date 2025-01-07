@@ -1,5 +1,5 @@
 {
-	"name": "Chat with your data",
+	"name": "Devicie Digital Technician",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},

@@ -1,6 +1,6 @@
 ---
-name: Chat with your data - Solution accelerator (Python)
-description: Chat with your data using OpenAI and AI Search with Python.
+name: Devicie Digital Technician - Solution accelerator (Python)
+description: Devicie Digital Technician using OpenAI and AI Search with Python.
 languages:
 - python
 - typescript
@@ -22,11 +22,11 @@ urlFragment: devicie-bot
 ---
 <!-- YAML front-matter schema: https://review.learn.microsoft.com/en-us/help/contribute/samples/process/onboarding?branch=main#supported-metadata-fields-for-readmemd -->
 
-# Chat with your data - Solution accelerator
+# Devicie Digital Technician - Solution accelerator
 
 
  ##### Table of Contents
-- [Chat with your data - Solution accelerator](#chat-with-your-data---solution-accelerator)
+- [Devicie Digital Technician - Solution accelerator](#chat-with-your-data---solution-accelerator)
         - [Table of Contents](#table-of-contents)
   - [User story](#user-story)
     - [About this repo](#about-this-repo)
@@ -46,7 +46,7 @@ urlFragment: devicie-bot
     - [Licensing](#licensing)
   - [Disclaimers](#disclaimers)
 ## User story
-Welcome to the *Chat with your data* Solution accelerator repository! The *Chat with your data* Solution accelerator is a powerful tool that combines the capabilities of Azure AI Search and Large Language Models (LLMs) to create a conversational search experience. This solution accelerator uses an Azure OpenAI GPT model and an Azure AI Search index generated from your data, which is integrated into a web application to provide a natural language interface, including [speech-to-text](docs/speech_to_text.md) functionality, for search queries. Users can drag and drop files, point to storage, and take care of technical setup to transform documents. Everything can be deployed in your own subscription to accelerate your use of this technology.
+Welcome to the *Devicie Digital Technician* Solution accelerator repository! The *Devicie Digital Technician* Solution accelerator is a powerful tool that combines the capabilities of Azure AI Search and Large Language Models (LLMs) to create a conversational search experience. This solution accelerator uses an Azure OpenAI GPT model and an Azure AI Search index generated from your data, which is integrated into a web application to provide a natural language interface, including [speech-to-text](docs/speech_to_text.md) functionality, for search queries. Users can drag and drop files, point to storage, and take care of technical setup to transform documents. Everything can be deployed in your own subscription to accelerate your use of this technology.
 
 
 
@@ -79,7 +79,7 @@ Here is a comparison table with a few features offered by Azure, an available Gi
 
 | Name	| Feature or Sample? |	What is it? | When to use? |
 | ---------|---------|---------|---------|
-|["Chat with your data" Solution Accelerator](https://aka.ms/ChatWithYourDataSolutionAccelerator) - (This repo)	| Azure sample | End-to-end baseline RAG pattern sample that uses Azure AI Search as a retriever.	| This sample should be used by Developers when the  RAG pattern implementations provided by Azure are not able to satisfy business requirements. This sample provides a means to customize the solution. Developers must add their own code to meet requirements, and adapt with best practices according to individual company policies. |
+|["Devicie Digital Technician" Solution Accelerator](https://aka.ms/ChatWithYourDataSolutionAccelerator) - (This repo)	| Azure sample | End-to-end baseline RAG pattern sample that uses Azure AI Search as a retriever.	| This sample should be used by Developers when the  RAG pattern implementations provided by Azure are not able to satisfy business requirements. This sample provides a means to customize the solution. Developers must add their own code to meet requirements, and adapt with best practices according to individual company policies. |
 |[Azure OpenAI on your data](https://learn.microsoft.com/azure/ai-services/openai/concepts/use-your-data) | Azure feature | Azure OpenAI Service offers out-of-the-box, end-to-end RAG implementation that uses a REST API or the web-based interface in the Azure AI Studio to create a solution that connects to your data to enable an enhanced chat experience with Azure OpenAI ChatGPT models and Azure AI Search. | This should be the first option considered for developers that need an end-to-end solution for Azure OpenAI Service with an Azure AI Search retriever. Simply select supported data sources, that ChatGPT model in Azure OpenAI Service , and any other Azure resources needed to configure your enterprise application needs. |
 |[Azure Machine Learning prompt flow](https://learn.microsoft.com/azure/machine-learning/concept-retrieval-augmented-generation)	| Azure feature | RAG in Azure Machine Learning is enabled by integration with Azure OpenAI Service for large language models and vectorization. It includes support for Faiss and Azure AI Search as vector stores, as well as support for open-source offerings, tools, and frameworks such as LangChain for data chunking. Azure Machine Learning prompt flow offers the ability to test data generation, automate prompt creation, visualize prompt evaluation metrics, and integrate RAG workflows into MLOps using pipelines.  | When Developers need more control over processes involved in the development cycle of LLM-based AI applications, they should use Azure Machine Learning prompt flow to create executable flows and evaluate performance through large-scale testing. |
 |[ChatGPT + Enterprise data with Azure OpenAI and AI Search demo](https://github.com/Azure-Samples/azure-search-openai-demo) | Azure sample | RAG pattern demo that uses Azure AI Search as a retriever. | Developers who would like to use or present an end-to-end demonstration of the RAG pattern should use this sample. This includes the ability to deploy and test different retrieval modes, and prompts to support business use cases. |
@@ -175,10 +175,10 @@ Customers have the option to deploy this solution with PostgreSQL or Cosmos DB. 
 
 
 To review PostgreSQL configuration overview and steps, follow the link [here](docs/postgreSQL.md).
-![Solution Architecture - Chat with your data PostgreSQL](/docs/images/architrecture_pg.png)
+![Solution Architecture - Devicie Digital Technician PostgreSQL](/docs/images/architrecture_pg.png)
 
 To review Cosmos DB configuration overview and steps, follow the link [here](docs/employee_assistance.md).
-![Solution Architecture - Chat with your data CosmosDB](/docs/images/architecture_cdb.png)
+![Solution Architecture - Devicie Digital Technician CosmosDB](/docs/images/architecture_cdb.png)
 
 ### Deploy instructions
 The "Deploy to Azure" button offers a one-click deployment where you don’t have to clone the code. If you would like a developer experience instead, follow the [local deployment instructions](./docs/LOCAL_DEPLOYMENT.md).

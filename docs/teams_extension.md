@@ -1,4 +1,4 @@
-[Back to *Chat with your data* README](../README.md)
+[Back to *Devicie Digital Technician* README](../README.md)
 
 # Teams extension
 [**USER STORY**](#user-story) | [**TEAMS DEPLOY**](#deployment-to-teams) | [**SUPPORTING DOCUMENTATION**](#supporting-documentation)
@@ -6,12 +6,12 @@
 \
 ![User Story](images/userStory.png)
 ## User story
-This extension enables users to experience Chat with your data within Teams, without having to switch platforms. It allows them to stay within their existing workflow and get the answers they need. Instead of building the Chat with your data solution accelerator from scratch within Teams, the same underlying backend used for the web application is leveraged within Teams.
+This extension enables users to experience Devicie Digital Technician within Teams, without having to switch platforms. It allows them to stay within their existing workflow and get the answers they need. Instead of building the Devicie Digital Technician solution accelerator from scratch within Teams, the same underlying backend used for the web application is leveraged within Teams.
 
-![Teams - Chat with your Data](images/teams-cwyd.png)
+![Teams - Devicie Digital Technician](images/teams-cwyd.png)
 
 ## Deployment to Teams
-**IMPORTANT**: Before you proceed, installation and configuration of the [Chat with your data with speech-to-text deployment](../README.md) is required.
+**IMPORTANT**: Before you proceed, installation and configuration of the [Devicie Digital Technician with speech-to-text deployment](../README.md) is required.
 
 ### Pre-requisites
 - [Visual Studio Code](https://code.visualstudio.com/)

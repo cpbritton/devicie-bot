@@ -7,7 +7,7 @@
 
 ## Context and Problem Statement
 
-E2E tests help test the deployed system as a whole, usually from the browser, for web applications like the Chat With Your Data website and admin website.
+E2E tests help test the deployed system as a whole, usually from the browser, for web applications like the Devicie Digital Technician website and admin website.
 They provide confidence in the overall functionality of the system, including how the various systems interact with each other.
 Since these tests can be slow and complex to set up, we should ideally run a small subset of test cases as E2E tests.
 

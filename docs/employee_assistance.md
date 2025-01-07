@@ -5,7 +5,7 @@ The Chat With Your Employee Assistant is designed to help professionals efficien
 
 ## Employee Assistant Infrastructure Configuration
 
-The following is the Chat With Your Data infrastructure configuration that we suggest to optimize the performance and functionality of the Employee Assistant:
+The following is the Devicie Digital Technician infrastructure configuration that we suggest to optimize the performance and functionality of the Employee Assistant:
 
 - **Azure Semantic Search**: Utilize Azure Semantic Search to efficiently index and search employee handbooks and corporate policy documents. This provides powerful search capabilities and integration with other Azure services.
 - **Azure Cognitive Search Top K 15**: Set the Top K parameter to 15 to retrieve the top 15 most relevant documents. This configuration helps in providing precise and relevant search results for user queries.
@@ -14,7 +14,7 @@ The following is the Chat With Your Data infrastructure configuration that we su
 - **Orchestration Strategy: Semantic Kernel**: Implement the Semantic Kernel orchestration strategy to effectively manage the integration and interaction between different components of the infrastructure. This strategy ensures seamless operation and optimal performance of the Employee Assistant.
 - **Conversation Flow Options**: Setting `CONVERSATION_FLOW` enables running advanced AI models like GPT-4o on your own enterprise data without needing to train or fine-tune models.
 
-By following these infrastructure configurations, you can enhance the efficiency, accuracy, and overall performance of the Chat With Your Data Employee Assistant, ensuring it meets the high demands and expectations of  professionals.
+By following these infrastructure configurations, you can enhance the efficiency, accuracy, and overall performance of the Devicie Digital Technician Employee Assistant, ensuring it meets the high demands and expectations of  professionals.
 
 ## Updating Configuration Fields
 
@@ -30,7 +30,7 @@ To apply the suggested configurations in your deployment, update the following f
 ## Admin Configuration
 In the admin panel, there is a dropdown to select the Chat With Your Employee Assistant. The options are:
 
-- **Default**: Chat With Your Data default prompt.
+- **Default**: Devicie Digital Technician default prompt.
 
 ![UnSelected](images/cwyd_admin_contract_unselected.png)
 
@@ -55,4 +55,4 @@ You can see the [Employee Assistant Prompt](../code/backend/batch/utilities/help
 We have added sample Employee data in the [Employee Assistant sample Docs](../data/employee_data) folder. This data can be used to test and demonstrate the Employee Assistant's capabilities.
 
 ## Conclusion
-This README provides an overview of the Chat With Your Data Employee Assistant prompt, instructions for updating the prompt configuration, and examples of questions and answers. Ensure you follow the guidelines for updating the prompt to maintain consistency and accuracy in responses.
+This README provides an overview of the Devicie Digital Technician Employee Assistant prompt, instructions for updating the prompt configuration, and examples of questions and answers. Ensure you follow the guidelines for updating the prompt to maintain consistency and accuracy in responses.

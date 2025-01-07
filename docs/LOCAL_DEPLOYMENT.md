@@ -1,4 +1,4 @@
-[Back to *Chat with your data* README](../README.md)
+[Back to *Devicie Digital Technician* README](../README.md)
 
 # Local setup
 
@@ -32,7 +32,7 @@ Also please refer to the section on [setting up RBAC auth](#authenticate-using-r
 
 ## Detailed Development Container setup instructions
 
-The solution contains a [development container](https://code.visualstudio.com/docs/remote/containers) with all the required tooling to develop and deploy the accelerator. To deploy the Chat With Your Data accelerator using the provided development container you will also need:
+The solution contains a [development container](https://code.visualstudio.com/docs/remote/containers) with all the required tooling to develop and deploy the accelerator. To deploy the Devicie Digital Technician accelerator using the provided development container you will also need:
 
 * [Visual Studio Code](https://code.visualstudio.com)
 * [Remote containers extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)

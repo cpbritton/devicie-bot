@@ -1,6 +1,6 @@
 # Conversation Flow Options
 
-The backend service for 'Chat With Your Data' supports both 'custom' and 'On Your Data' conversation flows.
+The backend service for 'Devicie Digital Technician' supports both 'custom' and 'On Your Data' conversation flows.
 
 ## Configuration
 
@@ -16,7 +16,7 @@ When running locally, you can set the environment variable in the `.env` file.
 CONVERSATION_FLOW=custom
 ```
 
-Provides the option to use a custom orchestrator to handle the conversation flow. 'Chat With Your Data' provides support for the following orchestrators:
+Provides the option to use a custom orchestrator to handle the conversation flow. 'Devicie Digital Technician' provides support for the following orchestrators:
 
 - [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/)
 - [Langchain](https://python.langchain.com/v0.2/docs/introduction/)

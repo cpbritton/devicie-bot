@@ -1,4 +1,4 @@
-# Using the web apps in the "Chat with your data" solution accelerator
+# Using the web apps in the "Devicie Digital Technician" solution accelerator
 
 ## Chat app
 

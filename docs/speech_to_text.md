@@ -1,4 +1,4 @@
-[Back to *Chat with your data* README](../README.md)
+[Back to *Devicie Digital Technician* README](../README.md)
 
 ![User Story](images/userStory.png)
 # Speech-to-text functionality

@@ -1,6 +1,6 @@
 # Advanced Image Processing
 
-The Chat With Your Data solution accelerator supports advanced image processing using Azure AI Vision and GPT-4 Vision to obtain more meaningful data from images.
+The Devicie Digital Technician solution accelerator supports advanced image processing using Azure AI Vision and GPT-4 Vision to obtain more meaningful data from images.
 
 With advanced image processing enabled, GPT-4 vision is used to generate rich captions of images, and Azure Computer Vision is used to generate embeddings of images, in addition to the text embeddings generated from the image captions.
 

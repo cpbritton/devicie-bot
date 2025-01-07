@@ -1,4 +1,4 @@
-[Back to *Chat with your data* README](../README.md)
+[Back to *Devicie Digital Technician* README](../README.md)
 
 # Prompt flow
 
@@ -6,7 +6,7 @@
 
 ## User Story
 
-The Chat With Your Data Solution Accelerator has included prompt flow as an orchestration strategy as an alternative,
+The Devicie Digital Technician Solution Accelerator has included prompt flow as an orchestration strategy as an alternative,
 low code option. This allows you to modify and experiment with the orchestration using Azure Machine Learning studio. To
 learn more about prompt flow see:
 [Azure Machine Learning PromptFlow](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/overview-what-is-prompt-flow?view=azureml-api-2).
