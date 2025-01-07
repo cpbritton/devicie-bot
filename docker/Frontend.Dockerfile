@@ -16,6 +16,7 @@ COPY poetry.lock /usr/src/app/poetry.lock
 WORKDIR /usr/src/app
 
 RUN pip install --upgrade pip && pip install poetry && poetry self add poetry-plugin-export && poetry export -o requirements.txt && pip install -r requirements.txt
+RUN pip install uwsgi
 
 COPY ./code/*.py /usr/src/app/
 COPY ./code/backend /usr/src/app/backend
