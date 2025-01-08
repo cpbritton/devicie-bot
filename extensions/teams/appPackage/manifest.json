@@ -15,12 +15,12 @@
         "outline": "CogSearchOutline.png"
     },
     "name": {
-        "short": "Chat with Data",
-        "full": "Chat with your own Data"
+        "short": "Devicie Digital Technician",
+        "full": "Microsoft Intune Devicie Digital Technician"
     },
     "description": {
-        "short": "A tool that combines the capabilities of Azure AI Search and LLMs.",
-        "full": "The 'Devicie Digital Technician' Solution Accelerator is a powerful tool that combines the capabilities of Azure Cognitive Search and Large Language Models (LLMs) to create a conversational search experience. This solution accelerator uses an Azure OpenAI GPT model and an Azure Cognitive Search index generated from your data, which is integrated into a web application to provide a natural language interface for search queries."
+        "short": "A tool that combines the capabilities of Devicie, Microsoft Intune and LLM's.",
+        "full": "The 'Devicie Digital Technician' is a service that utilizes LLM's to provide informed advice for Microsoft Intune via the Devicie solution."
     },
     "accentColor": "#FFFFFF",
     "bots": [
